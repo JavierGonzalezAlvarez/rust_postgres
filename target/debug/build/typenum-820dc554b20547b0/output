@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/javier/Escritorio/Proyectos/rust/rust_postgres_angular/back/target/debug/build/typenum-820dc554b20547b0/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/javier/Escritorio/Proyectos/rust/rust_postgres_angular/back/target/debug/build/typenum-820dc554b20547b0/out/op.rs

@@ -1,0 +1,11 @@
+/home/javier/Escritorio/Proyectos/rust/rust_postgres_angular/back/target/rls/debug/deps/futures_core-370fafe261161050.rmeta: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/future.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/stream.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/mod.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/poll.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/mod.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/atomic_waker.rs
+
+/home/javier/Escritorio/Proyectos/rust/rust_postgres_angular/back/target/rls/debug/deps/futures_core-370fafe261161050.d: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/future.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/stream.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/mod.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/poll.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/mod.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/atomic_waker.rs
+
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/lib.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/future.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/stream.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/mod.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/poll.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/mod.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.8/src/task/__internal/atomic_waker.rs:
