@@ -1,5 +1,6 @@
 use postgres::{Client, Error, NoTls};
 use std::collections::HashMap;
+use std::process;
 
 struct Author {
     _id: i32,
@@ -8,7 +9,7 @@ struct Author {
 }
 
 fn insert(name: &String) -> Result<(), Error> {
-    let mut client = Client::connect("postgresql://javier:2525_ap@localhost:5432/apirust", NoTls)?;
+    let mut client = Client::connect("postgresql://test:2525_ap@localhost:5432/apirust", NoTls)?;
     println!("name: {}", name);
     let mut authors = HashMap::new();
     authors.insert(String::from("Chinua Achebe"), "Nigeria");
@@ -30,7 +31,7 @@ fn insert(name: &String) -> Result<(), Error> {
 }
 
 fn select_name(name: &String) -> Result<(), Error> {
-    let mut client = Client::connect("postgresql://javier:2525_ap@localhost:5432/apirust", NoTls)?;
+    let mut client = Client::connect("postgresql://test:2525_ap@localhost:5432/apirust", NoTls)?;
     //println!("name: {}", name);
     //we set $1 for first value, and so on
     for row in client.query(
@@ -51,7 +52,7 @@ fn select_name(name: &String) -> Result<(), Error> {
 }
 
 fn create() -> Result<(), Error> {
-    let mut client = Client::connect("postgresql://javier:2525_ap@localhost:5432/apirust", NoTls)?;
+    let mut client = Client::connect("postgresql://test:2525_ap@localhost:5432/apirust", NoTls)?;
     //create table if not exists
     client.batch_execute(
         "
@@ -76,7 +77,7 @@ fn create() -> Result<(), Error> {
 }
 
 fn select_all() -> Result<(), Error> {
-    let mut client = Client::connect("postgresql://javier:2525_ap@localhost:5432/apirust", NoTls)?;
+    let mut client = Client::connect("postgresql://test:2525_ap@localhost:5432/apirust", NoTls)?;
 
     for row in client.query("SELECT id, name, country FROM author", &[])? {
         let author = Author {
@@ -97,7 +98,7 @@ struct DataStruct {
 
 fn select_count_fields() -> Result<(), Error> {
     let mut database_url =
-        Client::connect("postgresql://javier:2525_ap@localhost:5432/apirust", NoTls)?;
+        Client::connect("postgresql://test:2525_ap@localhost:5432/apirust", NoTls)?;
 
     for row in database_url.query(
         "SELECT name, COUNT(author) AS count FROM author GROUP BY name ORDER BY count DESC",
@@ -121,10 +122,29 @@ fn select_count_fields() -> Result<(), Error> {
 }
 
 fn main() {
-    create();
+    if let Err(err) = create() {
+        println!("Error: {:?}", err);
+        process::exit(1);
+    }
     let name = String::from("Ana");
-    //insert(&nombre);
-    select_name(&name);
-    select_all();
-    select_count_fields();
+
+    if let Err(err) = insert(&name) {
+        println!("Error: {:?}", err);
+        process::exit(1);
+    }
+
+    if let Err(err) = select_name(&name) {
+        println!("Error: {:?}", err);
+        process::exit(1);
+    }
+
+    if let Err(err) = select_all() {
+        println!("Error: {:?}", err);
+        process::exit(1);
+    }
+
+    if let Err(err) = select_count_fields() {
+        println!("Error: {:?}", err);
+        process::exit(1);
+    }
 }

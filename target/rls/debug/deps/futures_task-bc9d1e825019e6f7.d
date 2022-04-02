@@ -1,0 +1,11 @@
+/home/javier/Escritorio/Proyectos/rust/rust_postgres_data/target/rls/debug/deps/futures_task-bc9d1e825019e6f7.rmeta: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/spawn.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/future_obj.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/noop_waker.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/arc_wake.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker_ref.rs
+
+/home/javier/Escritorio/Proyectos/rust/rust_postgres_data/target/rls/debug/deps/futures_task-bc9d1e825019e6f7.d: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/spawn.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/future_obj.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/noop_waker.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/arc_wake.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker_ref.rs
+
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/lib.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/spawn.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/future_obj.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/noop_waker.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/arc_wake.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.8/src/waker_ref.rs:
